@@ -25,7 +25,6 @@ import static org.junit.Assert.*;
  */
 public class DaftarTest {
     public class Daftar extends AppCompatActivity {
-
         EditText username, password, email, alamat;
         DatabaseReference data;
         String username1, password1, email1, alamat1;
