@@ -36,7 +36,7 @@ public class DaftarTest {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_daftar);                   //untuk menset activity yg mau dieksekusi
+            setContentView(R.layout.activity_daftar);                   //untuk mengeset activity yg mau dieksekusi
             register = (Button) findViewById(R.id.register);            //untuk menambahkan id register untuk menyimpan
 
             username = (EditText) findViewById(R.id.username);

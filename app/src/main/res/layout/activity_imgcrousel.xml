@@ -47,5 +47,13 @@
             android:layout_marginTop="33dp"
             android:text="Avaiable in : 3 Days"
             android:textSize="20dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/order2"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:background="#ff"/>
 
 </RelativeLayout>
