@@ -13,11 +13,15 @@ public class Menu extends AppCompatActivity {
     public static String a;
     public static String Nama,Price, Avaiable;
 
+    public String idUser;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
+        idUser = getIntent().getStringExtra("ID_USER");
 
         button1 = (ImageButton) findViewById(R.id.orang);
         button1.setOnClickListener(new View.OnClickListener() {
@@ -29,6 +33,7 @@ public class Menu extends AppCompatActivity {
                 Nama = "Kutek n bag shoes";
                 Price = "Rp. 60.000,00";
                 Avaiable = "2 Days";
+                intent.putExtra("ID_USER", idUser);
                 startActivity(intent);
             }
         });
@@ -44,6 +49,7 @@ public class Menu extends AppCompatActivity {
                 Nama = "Books";
                 Price = "Rp. 60.000,00";
                 Avaiable = "2 Days";
+                intent.putExtra("ID_USER", idUser);
                 startActivity(intent);
             }
         });
@@ -58,6 +64,7 @@ public class Menu extends AppCompatActivity {
                 Nama = "Bag n Parfume";
                 Price = "Rp. 750.000,00";
                 Avaiable = "1 days";
+                intent.putExtra("ID_USER", idUser);
                 startActivity(intent);
             }
         });
@@ -72,6 +79,7 @@ public class Menu extends AppCompatActivity {
                 Nama = "Bag n Shoes";
                 Price = "Rp. 450.000,00";
                 Avaiable = "1 days";
+                intent.putExtra("ID_USER", idUser);
                 startActivity(intent);
             }
         });
@@ -86,6 +94,7 @@ public class Menu extends AppCompatActivity {
                 Nama = "Jacket n Trousers";
                 Price = "Rp. 550.000,00";
                 Avaiable = "1 days";
+                intent.putExtra("ID_USER", idUser);
                 startActivity(intent);
             }
         });
@@ -100,6 +109,7 @@ public class Menu extends AppCompatActivity {
                 Nama = "Bag n Shoes";
                 Price = "Rp. 450.000,00";
                 Avaiable = "1 days";
+                intent.putExtra("ID_USER", idUser);
                 startActivity(intent);
             }
         });

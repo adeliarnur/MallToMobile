@@ -8,6 +8,7 @@
     android:paddingLeft="18dp"
     android:paddingRight="18dp">
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -30,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:ems="10"
-                android:id="@+id/editTextEmailAddress"
+                android:id="@+id/username"
                 android:background="@android:color/transparent"
                 android:padding="12dp"
                 android:drawablePadding="12dp"
@@ -48,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:ems="10"
-                android:id="@+id/editText_Password"
+                android:id="@+id/password"
                 android:drawablePadding="16dp"
                 android:padding="16dp"
                 android:hint="Password"
@@ -102,20 +103,11 @@
                 android:textStyle="normal" />
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Forget password? "
-                android:textColor="#fff"
-                android:padding="16dp"
-                android:clickable="true"
-                android:layout_marginBottom="16dp"
-                style="@style/TextAppearance.AppCompat.Body1"/>
-
 
 
         </LinearLayout>
     </ScrollView>
+
 
 
 </LinearLayout>

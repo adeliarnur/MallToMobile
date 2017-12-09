@@ -19,7 +19,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Menu" />
         <activity android:name=".imgcrousel" />
-        <activity android:name=".Daftar"></activity>
+        <activity android:name=".Daftar" />
+        <activity android:name=".ListOrder"></activity>
     </application>
 
 </manifest>
